@@ -9,18 +9,3 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
-
-[tool.mypy]
-strict = true
-enable_error_code = ["possibly-undefined"]
-python_version = "3.10"
-exclude = [
-    "build/", # output of package build process
-    "venv/",
-    ".venv/",
-]
-
-[[tool.mypy.overrides]]
-# don't require type annotations of test functions
-module = "tests.*"
-disallow_untyped_defs = false

@@ -2,7 +2,7 @@
 1. Create clean Python 3.10 environment
 2. [Install mypy from source](https://mypy.readthedocs.io/en/stable/common_issues.html#using-a-development-mypy-build) (reproduced with efa5dcb35)
 3. Install this package: `pip install -e .`
-4. Run mypy: `mypy . --show-traceback`
+4. Run mypy: `mypy --strict . --show-traceback`
 
 Output:
 ```text
