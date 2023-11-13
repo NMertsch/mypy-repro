@@ -1,4 +1,4 @@
-# Reproduce mypy 1.7 crash
+# Reproduce mypy 1.7 crash ([#16473](https://github.com/python/mypy/issues/16473))
 1. Create clean Python 3.10 environment
 2. [Install mypy from source](https://mypy.readthedocs.io/en/stable/common_issues.html#using-a-development-mypy-build) (reproduced with efa5dcb35)
 3. Install this package: `pip install -e .`
